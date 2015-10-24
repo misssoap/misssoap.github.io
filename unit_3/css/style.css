@@ -1,31 +1,35 @@
-img {
-	padding: 50px;
-	background-position: center;
-	background-image: cover;
-}
-body {
-	color: #686E75
-}
 h1 {
-	font-family: Futura, sans-serif;
+	/*font-family: Futura, sans-serif;
 	font-weight: normal;
 	font-size: 60px;
-	text-align: center;
+	text-align: center;*/
 }
-p {
+h3 {
 	font-family: Didot, serif;
 	font-weight: normal;
-	font-size: 40px;
+	font-size: 20px;
 	text-align: center;
 }
-h2 {
-	font-family: Didot, serif;
-	font-weight: normal;
-	font-size: 35px;
-	text-align: center;
-}
-ul {
+footer {
 	font-family: Futura, sans-serif;
+	font-size: 15px;
 	text-align: center;
-	list-style: none;
+
 }
+#bg {
+	position: absolute;
+	opacity: 0.8;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+#landing {
+	background-image: url(images.mainpic1a.jpg);
+	font-family: Futura, sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	text-align: center;
+}
+
+
