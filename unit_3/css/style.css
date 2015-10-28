@@ -1,23 +1,34 @@
-h1 {
-	/*font-family: Futura, sans-serif;
-	font-weight: normal;
-	font-size: 60px;
-	text-align: center;*/
+body {
+	background-image: url("../images/mainpic1a.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.4;
 }
-h3 {
-	font-family: Didot, serif;
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 20px;
+	color: #000000;
+	text-align: left, top;
+	padding: 60px;
+}
+h2 {
+	font-family: Didot, serif;
+	font-weight: normal;
 	text-align: center;
+	font-size: 35px;
+	font-color: #ff0000;
+	padding: 40px;
+	background-color: #ffffff;
 }
 footer {
-	font-family: Futura, sans-serif;
+	font-family: Didot, serif;
 	font-size: 15px;
 	text-align: center;
-
+	padding: 200px;
 }
 #bg {
-	position: absolute;
+	/*position: absolute;
 	opacity: 0.8;
 	top: 0;
 	left: 0;
@@ -29,7 +40,7 @@ footer {
 	font-family: Futura, sans-serif;
 	font-weight: lighter;
 	font-size: 30px;
-	text-align: center;
+	text-align: center;*/
 }
 
 
