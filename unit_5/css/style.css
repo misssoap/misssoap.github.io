@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Sail);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+
+body {
+	/*background-image: url("../images/mainpic1c.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	opacity: 0.4;*/
+}
+header {
+	background-color: transparent;
+	padding-top: 15px;
+}
+nav {
+	float: right;
+	margin: 0px;
+}
+nav a {
+	display: block;
+	float: left;
+	margin: 10px;
+	text-align: right;
+}
+main  {
+	padding-top: 0.85em;
+	padding-bottom: 18em;
+}
+section {
+	background-color: #FBFBF2;
+	width: 900px;
+	display: block;
+}
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 2.5em;
+	color: #534D56;
+	background-color: rgba(251, 251, 242, .7);
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5em;
+	font-color: #534D56;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+figcaption {
+	/*text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1em;*/
+}
+p {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1em;
+	width: 35em;
+	margin: 1em auto 2em;
+	line-height: 1.7em;
+	text-align: center;
+	font-color: #534D56;
+}
+a {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+a:link {
+	color:#534D56;
+}
+a:visited {
+	color:#534D56;
+}
+a:hover {
+	color:#F4A261;
+}
+a:active {
+	color:#534D56;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " "; 
+	clear: both;
+	height: 0;
+}
+.box {
+	background-image: url("../images/wrapped1.jpg");
+	width: 290px;
+	height: 300px;
+	margin: 3.5px;
+	display: inline-block;;
+}
+.navlink {
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-left: 2em;
+}
+#wrapper {
+	background-image: url("../images/mainpic1c.jpg");
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	width: 900px;
+	margin:0 auto;
+	opacity: 0.9;
+}
+#logohome {
+	font-family: 'Sail', cursive;
+	color: #F4A261;
+	font-size: 2.5em;
+	margin-top: 2em;
+	text-align: left;
+	padding-left: 0.5em;
+	padding-top: 2em;
+}
+#footer {
+	padding-left: 51.75em;
+	padding-top: 10px;
+	border-top: 2px solid #F4A261;
+	color: #534D56;
+}
+
+
