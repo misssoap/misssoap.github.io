@@ -2,40 +2,29 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 
-body {
-	/*background-image: url("../images/mainpic1c.jpg");
-	background-size: cover; 
-	background-repeat: no-repeat;
-	opacity: 0.4;*/
-}
 header {
-	background-color: transparent;
-	padding-top: 15px;
+	font-family: 'Sail', cursive;
+	color: #F4A261;
+	font-size: 3em;
+	margin-left: 20px;
+	text-align: left;
 }
 nav {
-	float: right;
-	margin: 0px;
-}
-nav a {
-	display: block;
-	float: left;
-	margin: 10px;
-	text-align: right;
-}
-main  {
-	padding-top: 0.85em;
-	padding-bottom: 18em;
-}
-section {
-	background-color: #FBFBF2;
 	width: 900px;
-	display: block;
+	margin:0 auto;
+	border-bottom: 2px solid #F4A261;
+	color: #534D56;
+}
+main {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 4px;
 }
 h1 {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: #534D56;
 	background-color: rgba(251, 251, 242, .7);
 	padding-top: 1em;
@@ -52,17 +41,23 @@ h2 {
 	padding-top: 1em;
 	padding-bottom: 0.5em;
 }
-figcaption {
-	/*text-align: center;
-	font-family: 'Josefin Slab', serif;
-	font-size: 1em;*/
-}
 p {
 	font-family: 'Josefin Slab', serif;
 	font-size: 1em;
 	width: 35em;
 	margin: 1em auto 2em;
 	line-height: 1.7em;
+	text-align: center;
+	font-color: #534D56;
+}
+article {
+	padding-bottom: 25px;
+	border-top: 2px solid #F4A261;
+	color: #534D56;
+}
+ul {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1em;
 	text-align: center;
 	font-color: #534D56;
 }
@@ -83,6 +78,32 @@ a:hover {
 a:active {
 	color:#534D56;
 }
+footer {
+	border-top: 2px solid #F4A261;
+	color: #534D56;
+	text-align: right;
+	padding-top: 2px;
+}
+nav a {
+	display: inline-block;
+	float: right;
+	clear: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+aside a {
+	float: right; 
+	clear: both;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -93,39 +114,16 @@ a:active {
 }
 .box {
 	background-image: url("../images/wrapped1.jpg");
+	opacity: .8;
 	width: 290px;
 	height: 300px;
 	margin: 3.5px;
-	display: inline-block;;
-}
-.navlink {
-	font-size: 1em;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	margin-left: 2em;
+	display: inline-block;
 }
 #wrapper {
-	background-image: url("../images/mainpic1c.jpg");
-	background-repeat: no-repeat;
-	/*background-size: cover;*/
 	width: 900px;
 	margin:0 auto;
-	opacity: 0.9;
-}
-#logohome {
-	font-family: 'Sail', cursive;
-	color: #F4A261;
-	font-size: 2.5em;
-	margin-top: 2em;
-	text-align: left;
-	padding-left: 0.5em;
-	padding-top: 2em;
-}
-#footer {
-	padding-left: 51.75em;
-	padding-top: 10px;
-	border-top: 2px solid #F4A261;
-	color: #534D56;
+	background-color: #FBFBF2;
 }
 
 
