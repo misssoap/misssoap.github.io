@@ -8,17 +8,26 @@ header {
 	font-size: 3em;
 	margin-left: 20px;
 	text-align: left;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 nav {
 	width: 900px;
 	margin:0 auto;
 	border-bottom: 2px solid #F4A261;
 	color: #534D56;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 }
-main {
-	width: 900px;
+div {
+	/*width: 900px;
 	margin: 0 auto;
 	padding-top: 4px;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;*/
 }
 h1 {
 	font-family: 'Quicksand', sans-serif;
@@ -54,6 +63,9 @@ article {
 	padding-bottom: 25px;
 	border-top: 2px solid #F4A261;
 	color: #534D56;
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 ul {
 	font-family: 'Josefin Slab', serif;
@@ -83,6 +95,9 @@ footer {
 	color: #534D56;
 	text-align: right;
 	padding-top: 2px;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
 nav a {
 	display: inline-block;
@@ -103,6 +118,9 @@ aside a {
 	letter-spacing: 0.1em;
 	padding-bottom: 10px;
 	padding-right: 10px;
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -124,6 +142,18 @@ aside a {
 	width: 900px;
 	margin:0 auto;
 	background-color: #FBFBF2;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+#soaps {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 4px;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+
 }
 
 
