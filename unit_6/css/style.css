@@ -72,12 +72,6 @@ figcaption {
 	padding-top: 1em;
 	text-align: center;
 }
-ul {
-	font-family: 'Josefin Slab', serif;
-	font-size: 1em;
-	text-align: center;
-	font-color: #534D56;
-}
 a {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
@@ -94,6 +88,13 @@ a:hover {
 }
 a:active {
 	color:#534D56;
+}
+ul {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1em;
+	text-align: center;
+	font-color: #534D56;
+	line-height: 2em;
 }
 footer {
 	display: inline-block;
@@ -144,9 +145,9 @@ footer a {
 	padding-left: 15%;
 	padding-right: 15%;*/
 	width: 100%;
-	padding-top: 2%; 
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-top: 2%;
+	padding-left: 16%;
+	padding-right: 16%;
 	/*background-color: #FFE2B8;*/
 	background-color: #E89C6C;
 	/*border: 1px black solid;*/
@@ -160,19 +161,23 @@ footer a {
 	background-color: #E582A2;
 	border: 1px black solid;
 	padding:20px;
+	float: left;
+	width: 62%;
 }
 #right {
 	background-color: #E55B88;
 	border: 1px black solid;
 	padding:20px;
+	float:right;
+	width: 30%;
 }
 .clearfix:after {
-	display: block;
 	visibility: hidden;
-	height: 0;
+	display: block;
 	font-size: 0;
 	content: " "; 
 	clear: both;
+	height: 0;
 }
 
 
