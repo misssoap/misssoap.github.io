@@ -8,34 +8,20 @@
 	box-sizing:border-box;
 }
 header {
-	/*font-family: 'Lato', sans-serif;*/
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
-	color: #F4A261;
-	font-size: 2em;
-	letter-spacing: 0.05em;
-	text-align: left;
-	/*background-color: #FFED74;
-	border: 1px black solid;*/
-	padding: 20px;
-}
-nav {
-	width: auto;
-	/*border-bottom: 2px solid #F4A261;
-	color: #534D56;
-	/*background-color: #E8C66A;
-	border: 1px black solid;*/
-	padding:20px;
+
 }
 h1 {
 	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
 	font-weight: 400;
-	text-align: center;
-	font-size: 100%;
-	color: #534D56;
-	background-color: rgba(251, 251, 242, .7);
-	padding-top: 1em;
-	padding-bottom: 1em;
+	color: #F4A261;
+	letter-spacing: 0.05em;
+	text-align: left;
+	padding: 1%;
+}
+nav {
+	width: auto;
+	padding: 1%;
 }
 h2 {
 	font-family: 'Quicksand', sans-serif;
@@ -51,19 +37,16 @@ h2 {
 p {
 	font-family: 'Josefin Slab', serif;
 	font-size: 100%;
-	width: 40em;
+	width: 35em;
 	margin: 1em auto 2em;
 	line-height: 1.7em;
 	text-align: center;
 	font-color: #534D56;
 }
 section {
-	padding-bottom: 60px;
-	/*border-top: 2px solid #F4A261;
-	color: #534D56;
-	/*background-color: #E89C6C;
-	border: 1px black solid;*/
-	clear: both;
+	padding: 4em;
+	background-color: #FAFAFA;
+	border-bottom: solid white 0.5em;
 }
 figure {
 	float: left;
@@ -71,21 +54,31 @@ figure {
 	padding: 1%;
 	width: 31.3333%;
 	text-align: center;
+	position: relative;
 }
 figure img {
-	width: 70%;
+	width: 100%;
+}
+figure p {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 80%;
+	line-height: 2em;
+	width: 94%;
+	text-align: center;
+	position: absolute;
+}
+figure p.hovertext {
+	display: none;
+	top: 3em;
+	background-color: #FAFAFA;
+	bottom: auto;
 }
 figure img:hover {
 	opacity: 0.3;
 }
-figcaption {
-	font-family: 'Josefin Slab', serif;
-	font-size: 90%;
-	line-height: 1.4em;
-	text-align: center;
-	margin-left: 20%;
-	padding-top: 1%;
-	width: 60%;
+figure:hover p.hovertext {
+	display: block;
 }
 a {
 	font-family: 'Quicksand', sans-serif;
@@ -104,9 +97,18 @@ a:hover {
 a:active {
 	color:#534D56;
 }
+ul {
+	font-family: 'Josefin Slab', serif;
+	font-size: 90%;
+	line-height: 1.4em;
+	text-align: center;
+	margin-left: 20%;
+	padding-top: 1%;
+	width: 60%;
+}
 li {
 	font-family: 'Josefin Slab', serif;
-	font-size: 1em;
+	font-size: 100%;
 	text-align: center;
 	font-color: #534D56;
 	line-height: 2em;
@@ -114,98 +116,56 @@ li {
 footer {
 	display: inline-block;
 	float: right;
-	/*border-top: 2px solid #F4A261;
-	color: #534D56;*/
 	text-align: right;
-	padding-top: 2px;
+	padding-top: 1em;
 	width: 100%;
-	/*background-color: #E89C6C;
-	border: 1px black solid;*/
-	padding: 20px;
+	padding: 1em;
 }
 nav a {
 	display: inline-block;
 	float: right;
 	width: auto;
-	padding-left: 10px;
+	padding-left: 1.5%;
 	text-align: center;
-	margin-left: 20px;
+	margin-left: 1%;
 	font-size: 1em;
 	text-transform: uppercase;
-	line-height: 0.5em;
 	letter-spacing: 0.1em;
 }
 footer a {
 	clear: all;
-	font-size: 0.8em;
+	font-size: 80%;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	padding: 20px;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	padding: 1%;
+}
+label {
+	display: none;
+}
+#expand {
+	display: none;
 }
 #wrapper {
 	width: auto;
 	margin:0 auto;
-	/*background-color: #FBFBF2;
-	background-color: #FFE2B8;
-	border: 1px black solid;*/
-	padding: 20px;
-}
-#soaps {
-	padding-top: 2%;
-	/*background-color: #E89C6C;*/
-	text-align: center;
 }
 #soaps img {
-	width: 65%;
+	width: 100%;
+	padding: 0 15%;
 }
 #two_column {
-	/*background-color: #FFB7CF;
-	border: 1px black solid;*/
-	padding:20px;
+	padding:1%;
 }
 #left {
-	/*background-color: #E582A2;
-	border: 1px black solid;*/
-	padding:20px;
+	padding:1%;
 	float: left;
-	width: 62%;
 }
 #right {
-	/*background-color: #E55B88;
-	border: 1px black solid;*/
-	padding:20px;
+	padding:1%;
 	float:right;
 	width: 30%;
-}
-#imagewrapper {
-	float: left;
-	margin: 1%;
-	padding: 1%;
-	width: 31.3333%;
-	text-align: center;
-}
-#imagewrapper img {
-	width: 70%;
-}
-#imagewrapper .text {
-	/*width: 31.3333%;
-	position: center;*/
-	font-family: 'Josefin Slab', serif;
-	font-size: 90%;
-	line-height: 1.4em;
-	text-align: center;
-	margin-left: 20%;
-	width: 60%;
-	background-repeat: none;
-	position: center;
-	visibility: hidden;
-}
-#imagewrapper:hover .text{
-	visibility: visible;
-	background-image: url("../images/pumpkin2.jpg");
-	background-size: 100%;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -215,5 +175,99 @@ footer a {
 	clear: both;
 	height: 0;
 }
+
+@media screen and (max-width:840px){
+	figure p {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 400;
+		font-size: 70%;
+		line-height: 2em;
+		width: 94%;
+		text-align: center;
+		position: absolute;
+		} 
+	#left {
+		width:100%;
+		text-align: center;
+		}
+	#right {
+		width:100%;
+		text-align: center;
+		}
+	}
+@media screen and (max-width:740px){
+	h1 {
+		font-size: 1.5em;
+		letter-spacing: 0.03em;
+		}
+	nav a {
+		font-size: .8em;
+		}
+	h2 {
+		font-size: 1em;
+		}
+	p {
+		font-size: 90%;
+		}
+	ul {
+		font-size: 80%;
+		}
+	footer a {
+		font-size: 70%;
+		}
+	section {
+		padding: 2em;
+		}
+	}
+@media screen and (max-width:650px){
+	figure:hover p.hovertext {
+		display: none;
+		}
+	}
+@media screen and (max-width:560px){
+	h1 {
+		width: 100%;
+		text-align: center;
+		padding-top: 1em;
+		}
+	label {
+		display: block;
+		text-align: center;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 400;
+		font-size: 1em;
+		padding: 1em;
+		font-color: #534D56;
+		}
+	p {
+		width: 100%
+	}
+	nav {
+		display: none;
+		}
+	nav a {
+		width: 100%;
+		padding: .5em;
+		}
+	#expand:checked + nav {
+		display: block;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 400;
+		font-color: #534D56;
+		}
+	}
+@media screen and (max-width:400px){
+	#soaps img {
+		width: 100%;
+	}
+	section {
+		padding: 0.5em;
+		border-bottom: none;
+	}
+	footer a{
+		display: none;
+		}
+}
+
 
 

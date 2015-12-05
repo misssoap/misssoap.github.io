@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>miss soap</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -9,15 +10,19 @@
 
 	<body>
 		
-		<header>MISS SOAP</header>	
+	<header class="clearfix">
 
+		<h1>MISS SOAP</h1>
+		<label for="expand">x</label>
+    	<input type="checkbox" id="expand">
 		<nav class="clearfix">
 			<a href="#">my cart</a>
 			<a href="#">ingredients</a>
 			<a href="#">collection</a>
 			<a href="#">about</a>
 		</nav>	
-		
+	</header>	
+
 	<div id="wrapper">
 
 		<section id="soaps">
@@ -31,88 +36,89 @@
 
 		<section class="clearfix">
 			<h2>Collection</h2>
-			<!--<figure>
-				<img src="images/pumpkin2.jpg" alt="soap" title="poised pumpkin soap">
-				<figcaption>-- Poised Pumpkin --</figcaption>
-				<figcaption>5 oz</figcaption>
-				<figcaption>Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Pumpkin Puree, Cinnamon Leaf Essential Oil, Clove Essential Oil</figcaption>
-			</figure>-->
 
-			<div id="imagewrapper">
+			<figure>
 				<img src="images/pumpkin2.jpg" alt="soap" title="poised pumpkin soap">
-				<figcaption>-- Poised Pumpkin --</figcaption>
-				<figcaption>5 oz</figcaption>
-				<p class="text">Ingredients : Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Pumpkin Puree, Cinnamon Leaf Essential Oil, Clove Essential Oil</p>
-			</div>
+				<ul>Poised Pumpkin</ul>
+				<ul>5 oz</ul>
+				<ul>$6</ul>
+				<p class="hovertext">Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Pumpkin Puree, Cinnamon Leaf Essential Oil, Clove Essential Oil</p>
+			</figure>
 
 			<figure>
 				<img src="images/mint2.jpg" alt="soap" title="mighty mint soap">
-				<figcaption>-- Mighty Mint --</figcaption>
-				<figcaption>5oz</figcaption>
-				<figcaption>Coconut Oil, Palm Oil, Olive Oil, Distilled Water, Sodium Hydroxide, Peppermint Oil</figcaption>
+				<ul>Mighty Mint</ul>
+				<ul>5oz</ul>
+				<ul>$6</ul>
+				<p class="hovertext">Coconut Oil, Palm Oil, Olive Oil, Distilled Water, Sodium Hydroxide, Peppermint Oil</p>
 			</figure>
 
 			<figure>
 				<img src="images/orange2.jpg" alt="soap" title="optimist orange soap">
-				<figcaption>-- Optimist Orange --</figcaption>
-				<figcaption>5oz</figcaption>
-				<figcaption>Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Sweet Orange Essential Oil, Vanilla Essential Oil</figcaption>
+				<ul>Optimist Orange</ul>
+				<ul>5oz</ul>
+				<ul>$6</ul>
+				<p class="hovertext">Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Sweet Orange Essential Oil, Vanilla Essential Oil</p>
 			</figure>
 
 			<figure>
 				<img src="images/lavender2.jpg" alt="soap" title="lovely lavender soap">
-				<figcaption>-- Lovely Lavender --</figcaption>
-				<figcaption>5oz</figcaption>
-				<figcaption>Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Shea Butter, Distilled Water, Sodium Hydroxide, Lavender Essential Oil, Vanilla Essential Oil</figcaption>
+				<ul>Lovely Lavender</ul>
+				<ul>5oz</ul>
+				<ul>$6</ul>
+				<p class="hovertext">Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Shea Butter, Distilled Water, Sodium Hydroxide, Lavender Essential Oil, Vanilla Essential Oil</p>
 			</figure>
 
 			<figure>
 				<img src="images/carrot2.jpg" alt="soap" title="clever carrot soap">
-				<figcaption>-- Clever Carrot --</figcaption>
-				<figcaption>5oz</figcaption>
-				<figcaption>Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Carrot Puree, Orange Essential Oil</figcaption>
+				<ul>Clever Carrot</ul>
+				<ul>5oz</ul>
+				<ul>$6</ul>				
+				<p class="hovertext">Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Carrot Puree, Orange Essential Oil</p>
 			</figure>
 
 			<figure>
 				<img src="images/calendula2.jpg" alt="soap" title="comforting calendula soap">
-				<figcaption>-- Comforting Calendula --</figcaption>
-				<figcaption>5oz</figcaption>
-				<figcaption>Coconut Oil, Palm Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Aloe, Sweet Orange Essential Oil, Calendula Essential Oil, Calendula Petals</figcaption>
+				<ul>Comforting Calendula</ul>
+				<ul>5oz</ul>
+				<ul>$6</ul>				
+				<p class="hovertext">Coconut Oil, Palm Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Aloe, Sweet Orange Essential Oil, Calendula Essential Oil, Calendula Petals</p>
 			</figure>
 
 			<figure>
 				<img src="images/lemon2.jpg" alt="soap" title="lively lemon soap">
-				<figcaption>-- Lively Lemon --</figcaption>
-				<figcaption>5oz</figcaption>
-				<figcaption>Coconut Oil, Palm Oil, Olive Oil, Shea Butter, Distilled Water, Sodium Hydroxide, Lemon Essential Oil, Lemon Rind</figcaption>
+				<ul>Lively Lemon</ul>
+				<ul>5oz</ul>
+				<ul>$6</ul>				
+				<p class="hovertext">Coconut Oil, Palm Oil, Olive Oil, Shea Butter, Distilled Water, Sodium Hydroxide, Lemon Essential Oil, Lemon Rind</p>
 			</figure>
 
 			<figure>
 				<img src="images/honey2.jpg" alt="soap" title="heavenly honey soap">
-				<figcaption>-- Heavenly Honey --</figcaption>
-				<figcaption>5oz</figcaption> 
-				<figcaption>Coconut Oil, Almond Oil, Olive Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Honey, Oatmeal, Almond Milk</figcaption>
+				<ul>Heavenly Honey</ul>
+				<ul>5oz</ul>
+				<ul>$6</ul>				
+				<p class="hovertext">Coconut Oil, Almond Oil, Olive Oil, Sunflower Oil, Distilled Water, Sodium Hydroxide, Honey, Oatmeal, Almond Milk</p>
 			</figure>
 
 			<figure>
 				<img src="images/cucumber2.jpg" alt="soap" title="cool cucumber soap">
-				<figcaption>-- Cool Cucumber --</figcaption>
-				<figcaption>5oz</figcaption>
-				<figcaption>Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Shea Butter, Distilled Water, Sodium Hydroxide, Cucumber Puree, Lemon/Lime Essential Oil</figcaption>
+				<ul>Cool Cucumber</ul>
+				<ul>5oz</ul>
+				<ul>$6</ul>				
+				<p class="hovertext">Coconut Oil, Palm Oil, Olive Oil, Sunflower Oil, Shea Butter, Distilled Water, Sodium Hydroxide, Cucumber Puree, Lemon/Lime Essential Oil</p>
 			</figure>
 		</section>
 
 		<section class="clearfix">
 			<h2>Ingredients</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p>Miss Soap bath bars are based upon a composition of simple yet powerful ingredients. Coconut oil hydrates and moisturizes. Palm oil fights free radicals,  preventing skin damage and fine lines. Sunflower oil delivers additional moisture. Additional essential oils and natural ingredients provide the subtle yet distinct frangrance of each bath bar. </p>
 		</section>
 
 		<section id="two_column" class="clearfix">
 			<aside id="left">
-				<h2>Reviews</h2>
-				<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Anne, NY</p>
-				<p>"Lorem ipsum dolor sit amet, ut labore et dolore magna aliqua." Cate, CA</p>
-				<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, ut labore et dolore magna aliqua." Erica, TX</p>
+				<h2>Instructions</h2>
+				<p>Warm water is best to preserve the natural oils in your skin. Lather and rinse well. Gently pat dry and moisturize immediately.</p>
 			</aside>
 
 			<aside id="right">
